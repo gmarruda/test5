@@ -1,0 +1,8 @@
+{
+  "bindings": [
+    {
+      "role": "roles/artifactregistry.reader",
+      "members": ["allUsers"]
+    }
+  ]
+}
