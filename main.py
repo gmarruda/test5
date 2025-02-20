@@ -48,7 +48,7 @@ async def synthesize_speech(request: Request):
         # Construct SSML body for Azure TTS
         ssml_body = f"""
         <speak version='1.0' xml:lang='pt-BR'>
-            <voice xml:lang='pt-BR' xml:gender='Female' name='pt-BR-LeilaNeural'>
+            <voice xml:gender='Female' name='pt-BR-ThalitaMultilingualNeural'>
                 {text}
             </voice>
         </speak>
